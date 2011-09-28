@@ -3,11 +3,11 @@
 from distutils.core import setup
  
 setup(
-    name='facebook-python-sdk',
+    name='sjuxax-facebook',
     version='0.1',
-    description='This client library is designed to support the Facebook Graph API and the official Facebook JavaScript SDK, which is the canonical way to implement Facebook authentication.',
-    author='Facebook',
-    url='http://github.com/facebook/python-sdk',
+    description='Download profile pictures correctly using Facebook\'s Python SDK',
+    author='Facebook; sjuxax',
+    url='http://github.com/sjuxax/python-sdk',
     package_dir={'': 'src'},
     py_modules=[
         'facebook',
